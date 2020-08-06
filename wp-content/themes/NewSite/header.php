@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?php bloginfo('name'); ?></title>
-    <link href="<php echo get_template_directory_uri(); ?>/assets/css/styles.min.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/css/styles.min.css" rel="stylesheet">
     <?php
     wp_enqueue_style('font-awesome', 'https://use.fontawesome.com/releases/v5.6.1/css/all.css');
     wp_enqueue_script('jquery');
@@ -19,25 +19,29 @@
     <header class="header">
         <div class="header_inner">
             <div class="header_logo">
-                <h1><a href="<?php echo home_url(); ?>"><img src="<php echo get_template_directory_uri(); ?>/assets/img/common/logo@2x.png" alt="NewSite"></a></h1>
+                <h1><a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/common/NewSite_samplelogo_01.png" alt="NewSite"></a></h1>
             </div>
 
             <div class="header_desc"><p><?php bloginfo('description'); ?></p></div>
 
             <form class="header_search">
-                <input type="text" placeholder="キーワードを入力">
-                <i class="fas fa-search"></i>
+                <!-- <input type="text" placeholder="キーワードを入力">
+                <i class="fas fa-search"></i> -->
             </form>
         </div>
 
         <div class="header_links">
             <nav class="gnav">
                 <ul class="">
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">わたしたちについて</a></li>
-                    <li><a href="#">アクセス</a></li>
-                    <li><a href="#">最新情報</a></li>
-                    <li><a href="#">お問い合わせ</a></li>
+                <li><a href="#">HOME</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Boulangerie</a></li>
+                        <li><a href="#">Cafe</a></li>
+                        <li><a href="#">Philosophy</a></li>
+                        <li><a href="#">Access</a></li>
+                        <li><a href="#">Recruit</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">On line shop</a></li>
                 </ul>
             </nav>
 

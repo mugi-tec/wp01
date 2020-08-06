@@ -6,10 +6,14 @@
                 <nav>
                     <ul>
                         <li><a href="#">HOME</a></li>
-                        <li><a href="#">わたしたちについて</a></li>
-                        <li><a href="#">アクセス</a></li>
-                        <li><a href="#">最新情報</a></li>
-                        <li><a href="#">お問い合わせ</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Boulangerie</a></li>
+                        <li><a href="#">Cafe</a></li>
+                        <li><a href="#">Philosophy</a></li>
+                        <li><a href="#">Access</a></li>
+                        <li><a href="#">Recruit</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">On line shop</a></li>
                     </ul>
                 </nav>
                 <div class="footer_copyright">
@@ -21,7 +25,7 @@
 
 <link href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<script src="<php echo get_template_directory_uri(); ?>/assets/js/home.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/home.js"></script>
 
 <?php wp_footer(); ?>
 </body>

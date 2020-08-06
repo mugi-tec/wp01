@@ -2,9 +2,9 @@
 <?php get_header(); ?>
 
     <div class="jumbotron">
-        <div class="jumbotron_item" style="background-image: url('<php echo get_template_directory_uri(); ?>/assets/img/home/jumbotron-1@2x.jpg')"></div>
-        <div class="jumbotron_item" style="background-image: url('<php echo get_template_directory_uri(); ?>/assets/img/home/jumbotron-2@2x.jpg')"></div>
-        <div class="jumbotron_item" style="background-image: url('<php echo get_template_directory_uri(); ?>/assets/img/home/jumbotron-3@2x.jpg')"></div>
+        <div class="jumbotron_item" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/home/slider_00.png')"></div>
+        <div class="jumbotron_item" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/home/slider_01.png')"></div>
+        <div class="jumbotron_item" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/home/slider_02.png')"></div>
     </div>
 
     <section class="sec">
@@ -18,7 +18,7 @@
                     <article class="news">
                         <div class="news_pic">
                             <a href="#">
-                                <img src="<php echo get_template_directory_uri(); ?>/assets/img/home/news_img-1.jpg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/menu_00.png" alt="">
                             </a>
                         </div>
                         <div class="news_meta">
@@ -39,7 +39,7 @@
                     <article class="news">
                         <div class="news_pic">
                             <a href="#">
-                                <img src="./assets/img/home/news_img-2.jpg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/menu_01.png" alt="">
                             </a>
                         </div>
                         <div class="news_meta">
@@ -60,7 +60,7 @@
                     <article class="news">
                         <div class="news_pic">
                             <a href="#">
-                                <img src="<php echo get_template_directory_uri(); ?>/assets/img/home/news_img-3.jpg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/menu_02.png" alt="">
                             </a>
                         </div>
                         <div class="news_meta">
@@ -93,20 +93,37 @@
 
             <div class="row">
                 <div class="col-md-6">
-                    <a href="#" class="bnr" style="background-image: url('<php echo get_template_directory_uri(); ?>/assets/img/home/bnr_about@2x.jpg')">
+                    <a href="#" class="bnr" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/home/shop_00.png')">
                         <div class="bnr_inner">
-                            わたしたちについて<span>ABOUT</span>
+                        Boulangerie mugi<span>(ブーランジェリー ムギ)</span>
                         </div>
                     </a>
                 </div>
 
                 <div class="col-md-6">
-                    <a href="#" class="bnr" style="background-image: url('<php echo get_template_directory_uri(); ?>/assets/img/home/bnr_access@2x.jpg')">
+                    <a href="#" class="bnr" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/home/shop_01.png')">
                         <div class="bnr_inner">
-                            アクセス<span>ACCESS</span>
+                        Marche NATURE<span>(マルシェ・ナチュール)</span>
                         </div>
                     </a>
                 </div>
+
+                <div class="col-md-6">
+                    <a href="#" class="bnr" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/home/shop_02.png')">
+                        <div class="bnr_inner">
+                        Café Nature<span>(カフェ・ナチュール)</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-6">
+                    <a href="#" class="bnr" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/home/shop_03.png')">
+                        <div class="bnr_inner">
+                        YOMOGI<span>(ヨモギ)</span>
+                        </div>
+                    </a>
+                </div>
+
             </div>
         </div>
     </section>
@@ -124,7 +141,7 @@
                 <div class="contact_body">
                     <p>
                         お気軽にお問い合わせください
-                        <span>03-1234-5678</span>
+                        <span>086-000-0000</span>
                     </p>
                 </div>
             </div>
