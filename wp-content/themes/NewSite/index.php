@@ -8,13 +8,13 @@
     <link href="<php echo get_template_directory_uri(); ?>/assets/css/styles.min.css" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="./assets/js/main.js"></script>
+    <script src="<php echo get_template_directory_uri(); ?>/assets/js/main.js"></script>
 </head>
-<body>
+<body <?php body_class(); ?>>
     <header class="header">
         <div class="header_inner">
             <div class="header_logo">
-                <h1><a href="/"><img src="<php echo get_template_directory_uri(); ?>/assets/img/common/logo@2x.png" alt="BISTRO CALME"></a></h1>
+                <h1><a href="<?php echo home_url(); ?>"><img src="<php echo get_template_directory_uri(); ?>/assets/img/common/logo@2x.png" alt="NewSite"></a></h1>
             </div>
 
             <div class="header_desc"><p><?php bloginfo('description'); ?></p></div>
@@ -201,7 +201,7 @@
                     </ul>
                 </nav>
                 <div class="footer_copyright">
-                    <small>&copy; BISTRO CALME All rights reserved.</small>
+                    <small>&copy; NewSite All rights reserved.</small>
                 </div>
             </div>
         </div>
@@ -209,7 +209,7 @@
 
 <link href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<script src="./assets/js/home.js"></script>
+<script src="<php echo get_template_directory_uri(); ?>/assets/js/home.js"></script>
 
 </body>
 </html>
