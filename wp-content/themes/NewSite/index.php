@@ -1,16 +1,18 @@
 <!-- ヘッダーは「header.php」で管理 -->
 <?php get_header(); ?>
 
+    <?php if(is_home()): ?>
     <div class="jumbotron">
         <div class="jumbotron_item" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/home/slider_00.png')"></div>
         <div class="jumbotron_item" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/home/slider_01.png')"></div>
         <div class="jumbotron_item" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/home/slider_02.png')"></div>
     </div>
+    <?php endif; ?>
 
     <section class="sec">
         <div class="container">
             <header class="sec_header">
-                <h2 class="title">最新情報<span>NEWS</span></h2>
+                <h2 class="title">News<span>最新情報</span></h2>
             </header>
 
             <div class="row">
@@ -88,7 +90,7 @@
     <section class="sec bg-gray">
         <div class="container">
             <header class="sec_header">
-                <h2 class="title">店舗情報<span>INFORMATION</span></h2>
+                <h2 class="title">INFORMATION<span>店舗情報</span></h2>
             </header>
 
             <div class="row">
@@ -131,10 +133,10 @@
     <section class="sec sec-bg">
         <div class="sec_inner">
             <header class="sec_header">
-                <h2 class="title">お問い合わせ<span>CONTACT</span></h2>
+                <h2 class="title">On line shop<span>ブーランジェリームギ　オンラインショップ</span></h2>
             </header>
 
-            <div class="sec_body contact">
+            <!-- <div class="sec_body contact">
                 <div class="contact_icon">
                     <i class="fas fa-phone"></i>
                 </div>
@@ -144,10 +146,10 @@
                         <span>086-000-0000</span>
                     </p>
                 </div>
-            </div>
+            </div> -->
 
             <div class="sec_btn">
-                <a href="" class="btn btn-default">メールフォーム<i class="fas fa-angle-right"></i></a>
+                <a href="http://shop.mugi.co.jp/" class="btn btn-default">お買い物は、こちらからどうぞ<i class="fas fa-angle-right"></i></a>
             </div>
         </div>
     </section>
