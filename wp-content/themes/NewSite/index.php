@@ -29,10 +29,10 @@
                                     <?php the_category(); ?>
                                     <time class="news_time" datetime="<?php the_time('Y-m-d'); ?>"><?php the_time('Y年m月d日'); ?></time>
                                 </div>
-                                <h2 class="news_title"><a href="#">タイトルタイトルタイトルタイトル</a></h2>
+                                <h2 class="news_title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
                                 <div class="news_desc">
-                                    <p>概要が入ります。概要が入ります。概要が入ります。概要が入ります。概要が入ります。概要が入ります。</p>
-                                    <p><a href="#">[続きを読む]</a></p>
+                                    <?php the_excerpt(); ?>
+                                    <p><a href="<?php the_permalink(); ?>">[Read more]</a></p>
                                 </div>
                             </article>
                         </div>
