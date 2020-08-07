@@ -17,7 +17,7 @@
                     </ul>
                 </nav>
                 <div class="footer_copyright">
-                    <small>&copy; NewSite All rights reserved.</small>
+                    <small>&copy; <?php bloginfo('name'); ?> All rights reserved.</small>
                 </div>
             </div>
         </div>
