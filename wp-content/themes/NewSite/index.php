@@ -27,7 +27,7 @@
                                 </div>
                                 <div class="news_meta">
                                     <?php the_category(); ?>
-                                    <time class="news_time" datetime="2019-00-00">2019年00月00日</time>
+                                    <time class="news_time" datetime="<?php the_time('Y-m-d'); ?>"><?php the_time('Y年m月d日'); ?></time>
                                 </div>
                                 <h2 class="news_title"><a href="#">タイトルタイトルタイトルタイトル</a></h2>
                                 <div class="news_desc">
